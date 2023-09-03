@@ -1,0 +1,106 @@
+/* styles.module.scss */
+/* Styles généraux */
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 24px;
+}
+
+/* Navigation */
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section principale */
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Hero */
+.hero__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Section Features */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+}
+
+.feature__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature__text {
+    font-size: 16px;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer__copyright {
+    font-size: 14px;
+}
